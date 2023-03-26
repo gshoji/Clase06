@@ -4,6 +4,11 @@ public class calculadora {
 	
 	double num1,num2;
 	
+	
+	public boolean tieneHabitantes()
+	{
+		return false;
+	}
 	public double sumar(double unNumero,double otrNumero)
 	{
 		return unNumero+otrNumero;

@@ -2,9 +2,17 @@ package EjerCalculadora;
 
 import static org.junit.jupiter.api.Assertions.*;
 
+import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 
 class calculadoraTest {
+	@Test
+	void habitan() {
+		calculadora calc=new calculadora();
+
+		Assertions.assertTrue(!calc.tieneHabitantes());
+
+	}
 
 	@Test
 	void test() {
